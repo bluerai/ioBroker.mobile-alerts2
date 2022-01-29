@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "template",
+        "name": "mobile-alerts2",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -16,39 +16,40 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "Template (JavaScript)",
+        "title": "Mobile Alerts (API)",
         "titleLang": {
-            "en": "Template (JavaScript)",
-            "de": "Vorlage (JavaScript)",
-            "ru": "Шаблон (JavaScript)",
-            "pt": "Template (JavaScript)",
-            "nl": "Sjabloon (JavaScript)",
-            "fr": "Modèle (JavaScript)",
-            "it": "Template (JavaScript)",
-            "es": "Plantilla (JavaScript)",
-            "pl": "Szablon (JavaScript)",
-            "zh-cn": "模板（JavaScript）"
+            "en": "Mobile Alerts (API-Version)",
+            "de": "Mobile Alerts (API-Version)",
+            "ru": "",
+            "pt": "",
+            "nl": "",
+            "fr": "",
+            "it": "",
+            "es": "",
+            "pl": "",
+            "zh-cn": ""
         },
         "desc": {
-            "en": "Template for adapter development",
-            "de": "Vorlage für die Adapterentwicklung",
-            "ru": "Шаблон для разработки адаптера",
-            "pt": "Modelo para desenvolvimento de adaptador",
-            "nl": "Sjabloon voor ontwikkeling van adapters",
-            "fr": "Modèle pour le développement de l'adaptateur",
-            "it": "Modello per lo sviluppo dell'adattatore",
-            "es": "Plantilla para desarrollo de adaptadores.",
-            "pl": "Szablon do opracowania adaptera",
-            "zh-cn": "适配器开发模板"
+            "en": "Mobile Alerts - Sensor-Messungen über REST-API abrufen",
+            "de": "Mobile Alerts - Getting sensor mesurements via REST-API",
+            "ru": "",
+            "pt": "",
+            "nl": "",
+            "fr": "",
+            "it": "",
+            "es": "",
+            "pl": "",
+            "zh-cn": ""
         },
         "authors": [
-            "Author <author@mail.com>"
+            "Rai Blue<bluerai@gmx.de>"
         ],
         "keywords": [
             "ioBroker",
-            "template",
             "Smart Home",
-            "home automation"
+            "home automation",
+            "Mobiole Alerts",
+            "Wetter"
         ],
         "platform": "Javascript/Node.js",
         "main": "main.js",
@@ -57,7 +58,7 @@
         "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.template/master/admin/template.png",
         "readme": "https://github.com/Author/ioBroker.template/blob/master/README.md",
         "loglevel": "info",
-        "mode": "daemon",
+        "mode": "schedule",
         "type": "general",
         "compact": true,
         "materialize": true,
@@ -67,14 +68,14 @@
             "name": {
                 "en": "Template (JavaScript)",
                 "de": "Vorlage (JavaScript)",
-                "ru": "Шаблон (JavaScript)",
-                "pt": "Template (JavaScript)",
-                "nl": "Sjabloon (JavaScript)",
-                "fr": "Modèle (JavaScript)",
-                "it": "Template (JavaScript)",
-                "es": "Plantilla (JavaScript)",
-                "pl": "Szablon (JavaScript)",
-                "zh-cn": "模板（JavaScript）"
+            	"ru": "",
+            	"pt": "",
+            	"nl": "",
+            	"fr": "",
+            	"it": "",
+            	"es": "",
+            	"pl": "",
+            	"zh-cn": ""
             },
             "link": "",
             "fa-icon": "info"
