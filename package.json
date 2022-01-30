@@ -1,22 +1,22 @@
 {
-  "name": "iobroker.template",
+  "name": "iobroker.mobile-alerts2",
   "version": "0.0.1",
-  "description": "Template for adapter development",
+  "description": "Mobile Alerts for ioBroker: Getting sensor mesurements via REST-API",
   "author": {
-    "name": "Author",
-    "email": "author@mail.com"
+    "name": "bluearai",
+    "email": "bluerai@gmx.de"
   },
-  "homepage": "https://github.com/Author/ioBroker.template",
+  "homepage": "https://github.com/bluerai/ioBroker.mobile-alerts2.git",
   "license": "MIT",
   "keywords": [
     "ioBroker",
-    "template",
+    "mobile alerts",
     "Smart Home",
     "home automation"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Author/ioBroker.template"
+    "url": "https://github.com/bluerai/ioBroker.mobile-alerts2.git"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3"
@@ -50,7 +50,7 @@
     "lint:js": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/Author/ioBroker.template/issues"
+    "url": "https://github.com/bluerai/ioBroker.mobile-alerts2/issues"
   },
   "readmeFilename": "README.md"
 }

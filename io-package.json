@@ -4,82 +4,48 @@
         "version": "0.0.1",
         "news": {
             "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
+                "en": "initial release"
             }
         },
         "title": "Mobile Alerts (API)",
         "titleLang": {
-            "en": "Mobile Alerts (API-Version)",
-            "de": "Mobile Alerts (API-Version)",
-            "ru": "",
-            "pt": "",
-            "nl": "",
-            "fr": "",
-            "it": "",
-            "es": "",
-            "pl": "",
-            "zh-cn": ""
+            "en": "Mobile Alerts (API-Version)"
         },
         "desc": {
-            "en": "Mobile Alerts - Sensor-Messungen über REST-API abrufen",
-            "de": "Mobile Alerts - Getting sensor mesurements via REST-API",
-            "ru": "",
-            "pt": "",
-            "nl": "",
-            "fr": "",
-            "it": "",
-            "es": "",
-            "pl": "",
-            "zh-cn": ""
+            "en": "Mobile Alerts: Fetching sensor mesurements via REST-API"
         },
-        "authors": [
-            "Rai Blue<bluerai@gmx.de>"
-        ],
+    	"authors": [
+      		"Rai Blue <bluerai@gmx.de>"
+    	],
         "keywords": [
             "ioBroker",
             "Smart Home",
             "home automation",
-            "Mobiole Alerts",
+            "Mobile Alerts",
             "Wetter"
         ],
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "template.png",
+        "icon": "mobile-alerts.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.template/master/admin/template.png",
-        "readme": "https://github.com/Author/ioBroker.template/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/bluerai/ioBroker.mobile-alerts2/master/admin/mobile-alerts.png",
+        "readme": "https://github.com/bluerai/ioBroker.mobile-alerts2/blob/master/README.md",
         "loglevel": "info",
         "mode": "schedule",
-        "type": "general",
+    	"schedule": "*/7 * * * *",
+        "type": "weather",
         "compact": true,
         "materialize": true,
         "materializeTab": true,
         "adminTab": {
             "singleton": true,
             "name": {
-                "en": "Template (JavaScript)",
-                "de": "Vorlage (JavaScript)",
-            	"ru": "",
-            	"pt": "",
-            	"nl": "",
-            	"fr": "",
-            	"it": "",
-            	"es": "",
-            	"pl": "",
-            	"zh-cn": ""
+                "en": "obile Alerts (API)"
             },
             "link": "",
             "fa-icon": "info"
         },
+        "localLink": "http://measurements.mobile-alerts.eu/Home/SensorsOverview?phoneId=%phoneId%",
         "supportCustoms": true,
         "dependencies": [
             {
@@ -88,9 +54,8 @@
         ]
     },
     "native": {
-        "option1": true,
-        "option2": "42"
-    },
+    	"phoneId": "99999999999999"
+  	},
     "objects": [],
     "instanceObjects": []
 }

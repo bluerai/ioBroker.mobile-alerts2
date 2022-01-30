@@ -13,9 +13,9 @@
 **Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Author/ioBroker.template/master.svg)](https://travis-ci.org/Author/ioBroker.template)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Author/ioBroker.template?branch=master&svg=true)](https://ci.appveyor.com/project/Author/ioBroker-template/)
 
-## template adapter for ioBroker
+## Mobile Alerts (REST-API)
 
-Template for adapter development
+Mobile Alerts: Fetching sensor mesurements via REST-APIt
 
 ## Changelog
 
@@ -25,7 +25,7 @@ Template for adapter development
 ## License
 MIT License
 
-Copyright (c) 2019 Author
+Copyright (c) 2022 Author
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
