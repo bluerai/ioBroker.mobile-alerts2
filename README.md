@@ -1,6 +1,6 @@
 <h1>
     <img src="admin/template.png" width="64"/>
-    ioBroker.template
+    ioBroker.mobile-alerts2 -- Under Construction  --
 </h1>
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.template)
